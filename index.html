@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delivery</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__heading">
+				<div class="header__logo">
+					<img class="wow animate__animated animate__bounce" src="img/logo.svg" alt="логотип">
+				</div>
+
+				<input class="header__address input " type="text" placeholder="Адрес доставки">
+
+				<div class="header__buttons wow slideInLeft">
+					<button class="header__user button">Войти</button>
+					<button class="header__shop button" id="cart-button">Корзина</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="prom">
+			<div class="container prom-container">
+				<h1 class="prom__title">Онлайн-сервис <br> доставки еды на дом</h1>
+				<p href="" class="prom__subtitle">Блюда из любимого ресторана привезет курьер в перчатках, маске и с
+					антисептиком</p>
+			</div>
+		</section>
+		<section class="card">
+			<div class="container">
+				<div class="card__heading">
+					<h2 class="card__title">Рестораны</h2>
+					<input class="card__search input" type="text" placeholder="Поиск блюд и ресторанов">
+				</div>
+				<div class="card__content">
+					<a href="restourants.html" class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/card/1.png" alt="Бургеры" class="card__img">
+						<div class="card__name">
+							<div class="card__food">Бургеры по царски</div>
+							<div class="card__time">30 мин</div>
+						</div>
+						<div class="card__info">
+							<div class="card__rating">5.0</div>
+							<div class="card__price">От 1000 ₽</div>
+							<div class="card__view">Бургеры</div>
+						</div>
+					</a> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/card/2.jpg" alt="Пиццы" class="card__img">
+						<div class="card__name">
+							<div class="card__food">Пиццерия "Откуси кусочек"</div>
+							<div class="card__time">50 мин</div>
+						</div>
+						<div class="card__info">
+							<div class="card__rating">4.7</div>
+							<div class="card__price">От 700 ₽</div>
+							<div class="card__view">Пицца</div>
+						</div>
+					</div> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/card/3.jpg" alt="Блюдо из риса" class="card__img">
+						<div class="card__name">
+							<div class="card__food">Remdo</div>
+							<div class="card__time">40 мин</div>
+						</div>
+						<div class="card__info">
+							<div class="card__rating">4.5</div>
+							<div class="card__price">От 450 ₽</div>
+							<div class="card__view">Роллы</div>
+						</div>
+					</div> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/card/4.jpg" alt="Приготовленная рыба" class="card__img">
+						<div class="card__name">
+							<div class="card__food">Laudo</div>
+							<div class="card__time">50 мин</div>
+						</div>
+						<div class="card__info">
+							<div class="card__rating">3.2</div>
+							<div class="card__price">От 1500 ₽</div>
+							<div class="card__view">Морепродукты</div>
+						</div>
+					</div> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/card/5.jpg" alt="Мясо с картошкой" class="card__img">
+						<div class="card__name">
+							<div class="card__food">Обжорство</div>
+							<div class="card__time">50 мин</div>
+						</div>
+						<div class="card__info">
+							<div class="card__rating">4.5</div>
+							<div class="card__price">От 900 ₽</div>
+							<div class="card__view">Пицца,бургеры</div>
+						</div>
+					</div> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/card/6.jpg" alt="Сладкие фрукты" class="card__img">
+						<div class="card__name">
+							<div class="card__food">Сладкоежка</div>
+							<div class="card__time">50 мин</div>
+						</div>
+						<div class="card__info">
+							<div class="card__rating">4.5</div>
+							<div class="card__price">От 800 ₽</div>
+							<div class="card__view">Кондитерская</div>
+						</div>
+					</div> <!-- /item -->
+
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__flex">
+				<div class="footer__logo"><a href="#"><img src="img/logo.svg" alt="логотип"></a></div>
+				<nav class="footer__nav">
+					<a class="footer__item" href="#">Ресторанам </a>
+					<a class="footer__item" href="#">Курьерам</a>
+					<a class="footer__item" href="#">Пресс-центр</a>
+					<a class="footer__item" href="#">Контакты</a>
+				</nav>
+				<div class="footer__social">
+					<a class="footer__soc" href=""><img src="img/instagram.svg" alt="instagram"></a>
+					<a class="footer__soc" href=""><img src="img/facebook.svg" alt="facebook"></a>
+					<a class="footer__soc" href=""><img src="img/vkontakte.svg" alt="vkontakte"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal" id="modal">
+		<div class="modal__list">
+			<div class="modal__header">
+				<div class="modal__title">Корзина</div>
+				<button class="modal__close">&times;</button>
+			</div>
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__footer">
+				<div class="modal__money">1250 ₽</div>
+				<div class="modal__buttons">
+					<button class="modal__order">Оформить заказ</button>
+					<button class="modal__cancel">Отмена</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

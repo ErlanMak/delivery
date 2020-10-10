@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delivery</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__heading">
+				<div class="header__logo">
+					<img src="img/logo.svg" alt="логотип">
+				</div>
+
+				<input class="header__address input" type="text" placeholder="Адрес доставки">
+
+				<div class="header__buttons">
+					<button class="header__user button">Войти</button>
+					<button class="header__shop button" id="cart-button">Корзина</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="card">
+			<div class="container">
+				<div class="card__heading">
+					<h2 class="card__title">Рестораны</h2>
+					<div class="card__info card__info-mrauto">
+						<div class="card__rating">5.0</div>
+						<div class="card__price">От 1000 ₽</div>
+						<div class="card__view">Бургеры</div>
+					</div>
+				</div>
+				<div class="card__content">
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/restourants/1.png" alt="Бургеры" class="card__img">
+						<div class="card__discription">
+							<div class="card__head">Бургер классический</div>
+							<div class="card__text">Булочка с семенами, мясо говяжье, листик салата, помидор, сыр</div>
+							<div class="card__btn">
+								<button class="card__button">В корзину</button>
+								<div class="card__value">250 ₽</div>
+							</div>
+						</div>
+					</div> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/restourants/2.png" alt="Бургеры" class="card__img">
+						<div class="card__discription">
+							<div class="card__head">Бургер с бараниной</div>
+							<div class="card__text">Булочка классическая, мясо баранины, листик салата, помидор, сыр</div>
+							<div class="card__btn">
+								<button class="card__button">В корзину</button>
+								<div class="card__value">250 ₽</div>
+							</div>
+						</div>
+					</div> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/restourants/3.png" alt="Бургеры" class="card__img">
+						<div class="card__discription">
+							<div class="card__head">Бургер студенческий</div>
+							<div class="card__text">Булочка и надежда на светлое будущее</div>
+							<div class="card__btn">
+								<button class="card__button">В корзину</button>
+								<div class="card__value">250 ₽</div>
+							</div>
+						</div>
+					</div> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/restourants/4.png" alt="Бургеры" class="card__img">
+						<div class="card__discription">
+							<div class="card__head">Бургер обжора</div>
+							<div class="card__text">Булочка, куча специй, куча салата, мясо курицы</div>
+							<div class="card__btn">
+								<button class="card__button">В корзину</button>
+								<div class="card__value">250 ₽</div>
+							</div>
+						</div>
+					</div> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/restourants/5.png" alt="Бургеры" class="card__img">
+						<div class="card__discription">
+							<div class="card__head">Бургер BLM</div>
+							<div class="card__text">Абсолютно такой же как и классический, только булочка черного цвета</div>
+							<div class="card__btn">
+								<button class="card__button">В корзину</button>
+								<div class="card__value">250 ₽</div>
+							</div>
+						</div>
+					</div> <!-- /item -->
+					<div class="card__item wow animate__animated animate__slideInUp">
+						<img src="img/restourants/6.png" alt="Бургеры" class="card__img">
+						<div class="card__discription">
+							<div class="card__head">Бургер жизнь</div>
+							<div class="card__text">Бургер для тех кто познал жизнь, и уже ничего не удивляет</div>
+							<div class="card__btn">
+								<button class="card__button">В корзину</button>
+								<div class="card__value">250 ₽</div>
+							</div>
+						</div>
+					</div> <!-- /item -->
+
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__flex">
+				<div class="footer__logo"><a href="#"><img src="img/logo.svg" alt="логотип"></a></div>
+				<nav class="footer__nav">
+					<a class="footer__item" href="#">Ресторанам </a>
+					<a class="footer__item" href="#">Курьерам</a>
+					<a class="footer__item" href="#">Пресс-центр</a>
+					<a class="footer__item" href="#">Контакты</a>
+				</nav>
+				<div class="footer__social">
+					<a class="footer__soc" href=""><img src="img/instagram.svg" alt="instagram"></a>
+					<a class="footer__soc" href=""><img src="img/facebook.svg" alt="facebook"></a>
+					<a class="footer__soc" href=""><img src="img/vkontakte.svg" alt="vkontakte"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal" id="modal">
+		<div class="modal__list">
+			<div class="modal__header">
+				<div class="modal__title">Корзина</div>
+				<button class="modal__close">&times;</button>
+			</div>
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__content">
+				<div class="modal__info">Ролл угорь стандарт</div>
+				<div class="modal__price">250 ₽</div>
+				<div class="modal__counter">
+					<button class="modal__btn">-</button>
+					<span class="modal__number">1</span>
+					<button class="modal__btn">+</button>
+
+				</div>
+			</div> <!-- content -->
+			<div class="modal__footer">
+				<div class="modal__money">1250 ₽</div>
+				<div class="modal__buttons">
+					<button class="modal__order">Оформить заказ</button>
+					<button class="modal__cancel">Отмена</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
